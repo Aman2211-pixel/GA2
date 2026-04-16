@@ -22,7 +22,7 @@ jobs:
 
        - name: "Running the python app in this step!!"
          run: |
-           python app.py
+           python app.py &
            sleep 10
 
        - name: "Verifying if the app is running fine"
